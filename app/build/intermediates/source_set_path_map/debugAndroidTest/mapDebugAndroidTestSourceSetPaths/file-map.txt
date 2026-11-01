@@ -1,0 +1,4 @@
+org.adaptopen.nike.test.app-androidTest-0 C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\build\generated\res\resValues\androidTest\debug
+org.adaptopen.nike.test.app-mergeDebugAndroidTestResources-1 C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+org.adaptopen.nike.test.app-mergeDebugAndroidTestResources-2 C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+org.adaptopen.nike.test.app-debugAndroidTest-3 C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

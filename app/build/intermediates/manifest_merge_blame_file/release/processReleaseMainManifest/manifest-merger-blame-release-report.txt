@@ -1,0 +1,106 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.adaptopen.nike"
+4    android:versionCode="2"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-feature
+11-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:4:5-90
+12        android:name="android.hardware.bluetooth_le"
+12-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:4:19-63
+13        android:required="true" />
+13-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:4:64-87
+14
+15    <uses-permission
+15-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:6:5-95
+16        android:name="android.permission.BLUETOOTH"
+16-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:6:22-65
+17        android:maxSdkVersion="30" />
+17-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:6:66-92
+18    <uses-permission
+18-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:7:5-101
+19        android:name="android.permission.BLUETOOTH_ADMIN"
+19-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:7:22-71
+20        android:maxSdkVersion="30" />
+20-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:7:72-98
+21    <uses-permission
+21-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:8:5-106
+22        android:name="android.permission.ACCESS_FINE_LOCATION"
+22-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:8:22-76
+23        android:maxSdkVersion="30" />
+23-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:8:77-103
+24    <uses-permission
+24-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:9:5-120
+25        android:name="android.permission.BLUETOOTH_SCAN"
+25-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:9:22-70
+26        android:usesPermissionFlags="neverForLocation" />
+26-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:9:71-117
+27    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+27-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:10:5-76
+27-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:10:22-73
+28
+29    <application
+29-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:12:5-33:19
+30        android:name="org.adaptopen.nike.CitadelApp"
+30-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:13:9-35
+31        android:allowBackup="false"
+31-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:14:9-36
+32        android:extractNativeLibs="false"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:15:9-43
+34        android:label="Nike Adapt Open"
+34-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:17:9-40
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:16:9-54
+36        android:theme="@style/Theme.Citadel" >
+36-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:18:9-45
+37        <activity
+37-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:20:9-28:20
+38            android:name="org.adaptopen.nike.SplashActivity"
+38-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:21:13-43
+39            android:exported="true"
+39-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:22:13-36
+40            android:theme="@style/Theme.Citadel.Splash" >
+40-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:23:13-56
+41            <intent-filter>
+41-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:24:13-27:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:25:17-69
+42-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:25:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:26:17-77
+44-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:26:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:29:9-79
+48            android:name="org.adaptopen.nike.LanguageActivity"
+48-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:29:19-51
+49            android:exported="false" />
+49-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:29:52-76
+50        <activity
+50-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:30:9-76
+51            android:name="org.adaptopen.nike.TermsActivity"
+51-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:30:19-48
+52            android:exported="false" />
+52-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:30:49-73
+53        <activity
+53-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:31:9-75
+54            android:name="org.adaptopen.nike.MainActivity"
+54-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:31:19-47
+55            android:exported="false" />
+55-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:31:48-72
+56        <activity
+56-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:32:9-75
+57            android:name="org.adaptopen.nike.ShoeActivity"
+57-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:32:19-47
+58            android:exported="false" />
+58-->C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:32:48-72
+59    </application>
+60
+61</manifest>

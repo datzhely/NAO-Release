@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.adaptopen.nike"
+    android:versionCode="2"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="34" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        android:maxSdkVersion="30" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        android:maxSdkVersion="30" />
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        android:maxSdkVersion="30" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_SCAN"
+        android:usesPermissionFlags="neverForLocation" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+
+    <application
+        android:name="org.adaptopen.nike.CitadelApp"
+        android:allowBackup="false"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Nike Adapt Open"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.Citadel" >
+        <activity
+            android:name="org.adaptopen.nike.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Citadel.Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.adaptopen.nike.LanguageActivity"
+            android:exported="false" />
+        <activity
+            android:name="org.adaptopen.nike.TermsActivity"
+            android:exported="false" />
+        <activity
+            android:name="org.adaptopen.nike.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="org.adaptopen.nike.ShoeActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

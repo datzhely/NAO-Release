@@ -1,0 +1,7 @@
+org.adaptopen.nike.app-pngs-0 C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\build\generated\res\pngs\release
+org.adaptopen.nike.app-resValues-1 C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\build\generated\res\resValues\release
+org.adaptopen.nike.app-packageReleaseResources-2 C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+org.adaptopen.nike.app-packageReleaseResources-3 C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+org.adaptopen.nike.app-release-4 C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\build\intermediates\merged_res\release\mergeReleaseResources
+org.adaptopen.nike.app-main-5 C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\res
+org.adaptopen.nike.app-release-6 C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\release\res

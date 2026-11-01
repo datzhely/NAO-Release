@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:2:1-34:12
+	package
+		INJECTED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.bluetooth_le
+ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:4:5-90
+	android:required
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:4:64-87
+	android:name
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:4:19-63
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:6:5-95
+	android:maxSdkVersion
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:6:66-92
+	android:name
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:6:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:7:5-101
+	android:maxSdkVersion
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:7:72-98
+	android:name
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:7:22-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:8:5-106
+	android:maxSdkVersion
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:8:77-103
+	android:name
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:9:5-120
+	android:usesPermissionFlags
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:9:71-117
+	android:name
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:9:22-70
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:10:22-73
+application
+ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:12:5-33:19
+INJECTED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:12:5-33:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml
+	android:label
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:17:9-40
+	android:roundIcon
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:16:9-54
+	android:icon
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:14:9-36
+	android:theme
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:18:9-45
+	android:name
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:13:9-35
+activity#org.adaptopen.nike.SplashActivity
+ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:20:9-28:20
+	android:exported
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:22:13-36
+	android:theme
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:23:13-56
+	android:name
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:21:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:26:27-74
+activity#org.adaptopen.nike.LanguageActivity
+ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:29:9-79
+	android:exported
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:29:52-76
+	android:name
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:29:19-51
+activity#org.adaptopen.nike.TermsActivity
+ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:30:9-76
+	android:exported
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:30:49-73
+	android:name
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:30:19-48
+activity#org.adaptopen.nike.MainActivity
+ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:31:9-75
+	android:exported
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:31:48-72
+	android:name
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:31:19-47
+activity#org.adaptopen.nike.ShoeActivity
+ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:32:9-75
+	android:exported
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:32:48-72
+	android:name
+		ADDED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml:32:19-47
+uses-sdk
+INJECTED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Hely\Desktop\NAO\NikeAdaptOpen\app\src\main\AndroidManifest.xml

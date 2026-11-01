@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.adaptopen.nike.app-mergeDebugResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Hely\\Desktop\\NAO\\NikeAdaptOpen\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,386",
+                        "endLines": "7,12",
+                        "endColumns": "12,12",
+                        "endOffsets": "381,679"
+                    },
+                    "to": {
+                        "startLines": "4,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "149,480",
+                        "endLines": "9,14",
+                        "endColumns": "12,12",
+                        "endOffsets": "475,773"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Hely\\Desktop\\NAO\\NikeAdaptOpen\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,92",
+                        "endColumns": "36,56",
+                        "endOffsets": "87,144"
+                    }
+                }
+            ]
+        }
+    ]
+}
