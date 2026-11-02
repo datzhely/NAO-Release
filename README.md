@@ -1,6 +1,7 @@
 # Nike Adapt Open  (v1.0)
 
 IT: app Android open source e gratuita per usare le Nike Adapt BB 2.0 dopo la fine del supporto dell'app ufficiale. Ideata da The Citadel.
+
 EN: free, open-source Android app to keep using Nike Adapt BB 2.0 shoes after the official app was discontinued. Created by The Citadel.
 
 Discord: https://discord.gg/CBAVmcbUM5
